@@ -1,8 +1,8 @@
 const orbitData = [
-    { phrases: ["Te adoro", "Eres mi sol", "Mi universo", "Siempre tú", "Yaz"], radius: 150, color: "#ff6b6b", speed: 0.2 },
+    { phrases: ["Te adoro", "Eres mi sol", "Mi universo", "Siempre tú", "Yaz me encantas"], radius: 150, color: "#ff6b6b", speed: 0.2 },
     { phrases: ["Adoro tu aroma", "Contigo todo", "Prisa no tengo", "Amo todo de ti", "Mi vida"], radius: 230, color: "#ff8e8e", speed: -0.15 },
     { phrases: ["amo tus cachetes", "Tú y yo", "Mi niña terca", "Tus ojos Pardos", "Amo tu voz"], radius: 280, color: "#82259C", speed: 0.1 },
-    { phrases: ["Mi todo", "amo tu risa", "Vamos por un café", "Mi luz", "Te adoro princesa"], radius: 320, color: "#25599C", speed: -0.05 }
+    { phrases: ["Adroro a mi novia", "amo tu risa", "Vamos por un café", "Mi luz", "Te adoro princesa"], radius: 320, color: "#25599C", speed: -0.05 }
 ];
 
 const container = document.getElementById("phrases-container");
@@ -38,3 +38,4 @@ animate();
 
 const music = document.getElementById("backgroundMusic");
 document.body.addEventListener("click", () => music.play(), { once: true });
+
